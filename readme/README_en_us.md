@@ -1,7 +1,7 @@
 <p align="center">
     <img src="./icon/windows12.svg" width="100" height="100">
 </p>
-<h1 align="center">Windows12 Online</h1>
+<h1 align="center">Win12 Online</h1>
 <p align="center" class="shields">
   <span href="https://github.com/win12-online/win12/issues" style="text-decoration:none">
     <img src="https://img.shields.io/github/issues/win12-online/win12.svg" alt="GitHub issues"/>
@@ -36,8 +36,9 @@
 
 ## Table of Contents
 
-- [Windows12 Online](#windows12-online)
-  - [Preface](#preface)
+- [Win12 Online](#win12-online)
+  - [Foreword](#foreword)
+  - [Disclaimer](#disclaimer)
   - [Online Experience](#online-experience)
   - [Effect Display](#effect-display)
   - [Future Planning](#future-planning)
@@ -54,13 +55,28 @@
 
 ## Foreword
 
-A long time ago, tjy-gitnub was inspired after seeing the Windows 12 concept version (Powered by PowerPoint) and decided to create a Windows 12 web version, just like the [Windows 11 web version](https://win11.blueedge.me/). It features beautiful UI design, smooth and rich animations, and various advanced features.
+A long time ago, tjy-gitnub was inspired after seeing the Windows 12 concept version (Powered by PowerPoint) and decided to c
+reate a Windows 12 web version, just like the [Windows 11 web version](https://win11.blueedge.me/). It features beautiful UI design, smooth and rich animations, and various advanced features.
 
 Thus this project was born (yes, the birth of this project was just that sudden)
 
-> The mobile adaptation is not very complete yet, so please use the desktop version website for now `>v-)o`
+## Disclaimer
+
+This project (Win12 Online, abbreviated as "Win12OL") is a **purely non-commercial open-source hobby project** that explores and simulates graphical operating system interaction experiences through web technologies.
+
+> [!important]
+> This project **is not affiliated with, endorsed by, sponsored by, or authorized by Microsoft Corporation or its affiliates**.
+>
+> - The project name "Win12" and similar references are used solely as design-style descriptors and do not represent Microsoft products.
+> - All visual elements, including layout designs and color schemes, are the result of **independent re-creation** by the developers based on publicly available materials. They are not copies, modifications, or derivatives of Microsoft's original copyrighted assets.
+> - Most icons have been redrawn by the developers. The reference icons for these redraws, as well as the few remaining unredrawn icons, are icons from the current version of Windows and are used solely for identification and display purposes. Their copyright belongs to Microsoft Corporation.
+> - This project does not contain any binary code, APIs, internal logic, or other proprietary components from Microsoft Windows operating systems.
+>
+> All code, assets, and documentation in this project are provided **for learning and research purposes only**. Users must not use this project to infringe upon the legal rights of Microsoft or any third-party rights holders. Any legal liability arising from the use of this project shall not be borne by the project contributors or the open-source community.
 
 ## Online Experience
+
+> The mobile adaptation is not very complete yet, so please use the desktop version website for now `>v-)o`
 
 Click [here](https://win12.tech) to experience it.
 
@@ -108,7 +124,7 @@ Here are some... uh... wild... ideas `~o~)/`:
 - [ ] Convert and execute .exe files
 - [ ] Provide more APIs for applications to call
 - [x] Built-in browser kernel, become an application
-- [ ] Rename the project to "Windows 12"
+- [ ] Rename the project to "Win12"
 - [ ] Package into the Windows system
 - [ ] Set the startup program to this application
 - [ ] Remove redundant system functions and package them into an independent operating system
