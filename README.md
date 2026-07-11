@@ -15,7 +15,7 @@
   <span href="https://status.win12.tech/status/win12" style="text-decoration:none">
     <img src="https://status.win12.tech/api/badge/5/status?style=plastic" alt="GitHub forks"/>
   </span>
-</p> -->
+</p>
 <p align="center">
   <a href="https://trendshift.io/repositories/115" target="_blank">
     <img src="https://trendshift.io/api/badge/repositories/115" alt="win12-online%2Fwin12 | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
@@ -27,12 +27,12 @@
   <a href="readme/README_fr_fr.md">Français</a> |
   <a href="readme/README_zh_tw.md">繁體中文</a>
 </p>
-<!--<details align="center">
+<details align="center">
   <summary>Star History</summary>
   <a href="https://star-history.com/#win12-online/win12&Date" style="text-decoration:none">
     <img src="https://api.star-history.com/svg?repos=win12-online/win12&type=Date" alt="Star History Chart">
   </a>
-</details>-->
+</details>
 
 ## 目录
 
