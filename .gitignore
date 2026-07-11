@@ -1,5 +1,11 @@
 web.config
-.vscode
-.idea
+.vscode/
+.idea/
+
+.claude/
 
 .DS_Store
+
+.prettierrc
+.prettierignore
+

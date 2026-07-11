@@ -23,9 +23,9 @@
 </p>
 <p align="center" class="language" title="Language selection">
 <a href="readme/README_en_us.md">English</a> | 
-<b>Simplified Chinese</b> | 
-<a href="readme/README_fr_fr.md">Français</a>|
-<a href="readme/README_zh_tw.md">Traditional Chinese</a>
+<b>简体中文</b> | 
+<a href="readme/README_fr_fr.md">Français</a> |
+<a href="readme/README_zh_tw.md">繁體中文</a>
 </p>
 <details align="center">
   <summary>Star History</summary>

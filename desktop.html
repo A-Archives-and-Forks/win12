@@ -1,4 +1,4 @@
-<!-- Windows 12 网页版是一个开放源项目，
+<!-- Win12 网页版是一个开放源项目，
 	希望让用户在网络上预先体验 Windows 12,
 	内容可能与 Windows 12 正式版本不一致。
 	使用标准网络技术，例如 HTML、CSS 和 JavaScript，
@@ -75,7 +75,7 @@ toggletheme() 切换主题
 欢迎补充~
 -->
 <!DOCTYPE html>
-<html lang="en" class="mica">
+<html lang="zh" class="mica">
 
 <head>
 	<meta charset="UTF-8" />
@@ -122,8 +122,8 @@ toggletheme() 切换主题
 
 	<base target="_blank">
 
-	<title>Windows 12 网页版</title>
-	<meta name="description" content="Windows 12 网页版是一个在线体验 Windows 12 操作系统的开源项目, 使用 HTML、CSS 和 JavaScript 模拟 Windows 12 操作系统的界面与交互。">
+	<title>Win12 网页版</title>
+	<meta name="description" content="Win12 网页版是一个在线体验 Windows 12 操作系统的开源项目, 使用 HTML、CSS 和 JavaScript 模拟 Windows 12 操作系统的界面与交互。">
 </head>
 
 
@@ -2511,28 +2511,13 @@ toggletheme() 切换主题
 	</div>
 	<div class="window run">
 		<div class="titbar">
-			<img src="icon/run.svg" class="icon">
-			<p data-i18n="run.name">运行</p>
-			<div>
-				<a class="a wbtg red" onclick="hidewin('run')"><i class="bi bi-x-lg"></i></a>
-			</div>
-		</div>
-		<div class="loadback">
-			<img src="icon/run.svg" class="icon">
 		</div>
 		<div class="content" id="win-run">
-			<div class="top">
-				<div class="icon"></div>
-				<div class="text" data-i18n="run.txt">Windows 将根据你所输入的名称，为你打开相应的程序、文件夹、文档或 Internet 资源。</div>
-			</div>
 			<div class="open">
-				<div class="prompt" data-i18n="run.open">打开：</div>
+				<div class="icon"></div>
 				<input class="input" type="text"
 					onkeyup="if (event.keyCode == 13) { hidewin('run');apps.run.run($('#win-run>.open>input').val()); }">
-			</div>
-			<div class="buttons">
-				<a class="a submit act" onclick="hidewin('run');apps.run.run($('#win-run>.open>input').val())" data-i18n="ok">确定</a>
-				<a class="a cancel act" onclick="hidewin('run')" data-i18n="cancel">取消</a>
+				<a class="a button" onclick="hidewin('run');apps.run.run($('#win-run>.open>input').val())" data-i18n="ok">运行</a>
 			</div>
 		</div>
 	</div>
@@ -3277,7 +3262,7 @@ toggletheme() 切换主题
 
 	<script defer src="scripts/setting_getTime.js"></script>
 	<script defer src="scripts/news.js"></script>
-	<script defer src="scripts/Lunar.js"></script>
+	<script defer src="scripts/lunar.js"></script>
 	<script defer src="https://unpkg.com/pyodide@0.23.4/pyodide.js" async></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.23.0/ace.min.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.23.0/ext-language_tools.min.js"></script>
@@ -3288,7 +3273,7 @@ toggletheme() 切换主题
 	<script defer src='https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js'></script>
 	<script defer src='https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.8/purify.min.js'></script>
 	<script defer src="tauri/tauri_api.js"></script>
-	<script type="module" src="tauri/Battery_power.js"></script>
+	<script type="module" src="tauri/battery_power.js"></script>
 
 </body>
 
